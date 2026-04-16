@@ -1,28 +1,27 @@
-# StayHealthy - Healthcare Portal Front-end
+# Medical Appointment Booking
 
-This project is part of the **Front-end Capstone** for the "StayHealthy" application. The focus of this milestone was to create a functional user interface, a responsive navigation system, and seamless linking between core pages.
+This is the front-end repository for the **Medical Appointment Booking** website. This project provides a seamless interface for users to navigate healthcare services and manage their appointments.
 
-## 🚀 Implemented Features
+## Implemented Features
 
-* **Responsive Navbar:** A navigation menu featuring a toggle mechanism for mobile views and direct links to all sections.
-* **Landing Page:** The main entry point of the application showcasing available services.
-* **Sign-Up Form:** A registration layout for new users with required field validations.
-* **Login Form:** A secure-entry layout for existing members.
+* **Responsive Navbar:** A global navigation component with links to Home, Login, and Sign Up.
+* **Landing Page:** The primary entry point showcasing medical services.
+* **Sign-Up Form:** User registration layout with field validation.
+* **Login Form:** Secure user authentication interface.
 
-## 🔗 Navigation & Interconnectivity
-All pages are interconnected using relative paths to ensure operational accuracy:
-- **Navbar:** Provides global access to Home, Sign-Up, and Login.
-- **Login Page:** Includes a reciprocal "Sign Up Here" link for new users.
-- **Sign-Up Page:** Includes a reciprocal "Already a member? Login" link for returning users.
+## Navigation & Interconnectivity
+All pages are interconnected using relative paths:
+- The **Navbar** links to all major sections.
+- The **Login** page includes a direct link to **Sign Up** for new members.
+- The **Sign-Up** page allows existing members to quickly navigate back to **Login**.
 
-## 🛠️ Tech Stack
-* **HTML5:** Semantic structure for all forms and navigation.
-* **CSS3:** Custom styling for a modern healthcare UI.
-* **JavaScript:** Toggle functionality for the mobile navigation menu.
-* **Git & GitHub:** Version control and repository management.
+## Data Management & Persistence
+To ensure project integrity, the following practices are followed:
+* **Regular Updates:** Changes are consistently added, committed, and pushed to GitHub.
+* **Session Persistence:** Work is pushed to the remote repository to prevent data loss when lab sessions expire.
+* **Excluding Dependencies:** External dependencies (like `node_modules`) are excluded from the repository to keep it lightweight.
 
-## 📁 Project Structure
-- `/Landing_Page` - Application homepage files.
-- `/Login` - HTML and CSS for the user login interface.
-- `/Navbar` - Global navigation component (HTML, CSS, JS).
-- `/Sign_Up` - HTML and CSS for the user registration interface.
+## Tech Stack
+* HTML5 & CSS3
+* JavaScript
+* Git & GitHub
